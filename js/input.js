@@ -28,7 +28,7 @@ $(function(){
      }
 
      function listen(){
-       $ele.on('keyup',function(){
+       $ele.on('blur',function(){
         var valid =  me.validator.is_valid(me.get_val());
          console.log("valid:",valid);
 
